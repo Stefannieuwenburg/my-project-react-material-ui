@@ -1,3 +1,37 @@
+# Getting Started with material-ui
+
+########### material ui ##############
+
+for react 18 use:
+npm i @material-ui/core --legacy-peer-deps
+
+or:
+npm install @mui/material @emotion/react @emotion/styled
+
+Please note that react >= 17.0.0 and react-dom >= 17.0.0 are peer dependencies.
+Material UI is using emotion as a styling engine by default. If you want to use styled-components instead, run:
+
+npm install @mui/material @mui/styled-engine-sc styled-components
+
+npm i @material-ui/core
+
+npm i @mui/icons-material:
+
+
+# The dependencies are:
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@material-ui/core": "^4.12.4",
+    "@mui/icons-material": "^5.8.0",
+    "@mui/material": "^5.8.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
