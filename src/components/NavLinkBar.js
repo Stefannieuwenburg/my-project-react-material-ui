@@ -15,7 +15,7 @@ import MenuItem from "@mui/material/MenuItem";
 
 import AdbIcon from "@mui/icons-material/Adb";
 import { ThemeProvider } from "@emotion/react";
-import theme from "./StyleTheme"
+import CoolTheme from "./StyleTheme"
 
 const pages = ["Home", "About", "Info"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
@@ -44,7 +44,7 @@ const NavLinkBar = () => {
 
 
     return (
-        <ThemeProvider theme={theme}>
+        <ThemeProvider theme={CoolTheme}>
         <AppBar position="static" color="primary">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>

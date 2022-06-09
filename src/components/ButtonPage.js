@@ -5,7 +5,7 @@ import SaveIcon from "@mui/icons-material/Save";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 import { ThemeProvider } from "@emotion/react";
-import theme from "./StyleTheme";
+import CoolTheme from "./StyleTheme";
 import MyButton from "./StyleButton";
 
 
@@ -30,7 +30,7 @@ function ControlledCheckbox() {
 const ButtonPage = () => {
     return (
         <div className="btn-page">
-            <ThemeProvider theme={theme}>
+            <ThemeProvider theme={CoolTheme}>
                 <ControlledCheckbox />
                 <ButtonGroup>
                     <MyButton
